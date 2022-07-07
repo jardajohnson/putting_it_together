@@ -25,7 +25,7 @@ function App() {
 			<PersonCard
 				firstName='Maria'
 				lastName='Smith'
-				age='62'
+				age={62}
 				hairColor='Brown'
 			/>
 		</>
