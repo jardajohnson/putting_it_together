@@ -1,7 +1,10 @@
 import './App.css';
+import PersonCard from './components/PersonCard.js'
 
 function App() {
-	return <div className='App'></div>;
+	return (
+		<PersonCard firstName='Jane' lastName='Doe' age={45} hairColor='Black' /> 
+	)
 }
 
 export default App;
